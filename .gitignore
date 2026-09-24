@@ -1,0 +1,9 @@
+node_modules/
+.sites-runtime/
+.superpowers/
+*.log
+*.tar.gz
+.env*
+.DS_Store
+.openai/
+Thumbs.db

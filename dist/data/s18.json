@@ -1,0 +1,1695 @@
+{
+  "set": "金铲铲之战 S18 自然之力",
+  "patchObserved": "18.2a",
+  "asOf": "2026-09-24",
+  "counts": {
+    "baseChampions": 64,
+    "fieldableVariants": 72,
+    "countableTraits": 25,
+    "emblems": 20
+  },
+  "traits": [
+    {
+      "id": "灵魂莲华",
+      "name": "灵魂莲华",
+      "breakpoints": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_blossom_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_blossom_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "魔女",
+      "name": "魔女",
+      "breakpoints": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_coven_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_coven_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "永恒之森",
+      "name": "永恒之森",
+      "breakpoints": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_elderwood_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_elderwood_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "黑荆棘",
+      "name": "黑荆棘",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_blackthorn_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_blackthorn_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "花仙子",
+      "name": "花仙子",
+      "breakpoints": [
+        2,
+        4
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_fae_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_fae_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "绝命花妖",
+      "name": "绝命花妖",
+      "breakpoints": [
+        1,
+        2
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_florafatalis18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_florafatalis18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "地狱火",
+      "name": "地狱火",
+      "breakpoints": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_inferno_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_inferno_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "月蚀骑士",
+      "name": "月蚀骑士",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_lunar_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_lunar_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "野兽之灵",
+      "name": "野兽之灵",
+      "breakpoints": [
+        2,
+        4
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_primal18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_primal18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "峡谷野怪",
+      "name": "峡谷野怪",
+      "breakpoints": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "countable": true,
+      "emblem": false,
+      "type": "ordinary",
+      "icon": "assets/traits/da_riftbeast18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_riftbeast18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "宿敌",
+      "name": "宿敌",
+      "breakpoints": [
+        1,
+        2
+      ],
+      "countable": true,
+      "emblem": false,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_rival_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_rival_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "日蚀骑士",
+      "name": "日蚀骑士",
+      "breakpoints": [
+        3
+      ],
+      "countable": true,
+      "emblem": false,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_solar_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_solar_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "约德尔人和朋友",
+      "name": "约德尔人和朋友",
+      "breakpoints": [
+        3,
+        5,
+        7
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_sprykin_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_sprykin_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "魔战士",
+      "name": "魔战士",
+      "breakpoints": [
+        2,
+        3,
+        4
+      ],
+      "countable": true,
+      "emblem": false,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_adaptor_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_adaptor_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "斗士",
+      "name": "斗士",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_brawler_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_brawler_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "护卫",
+      "name": "护卫",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_defender_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_defender_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "裁决使",
+      "name": "裁决使",
+      "breakpoints": [
+        2,
+        3,
+        4
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_executioner_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_executioner_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "猎人",
+      "name": "猎人",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_hunter_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_hunter_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "神谕",
+      "name": "神谕",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_invoker_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_invoker_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "主宰",
+      "name": "主宰",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_juggernaut18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_juggernaut18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "迅捷射手",
+      "name": "迅捷射手",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_rapidfire_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_rapidfire_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "狂战士",
+      "name": "狂战士",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_slayer_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_slayer_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "法师",
+      "name": "法师",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_spellweaver_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_spellweaver_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "召唤师",
+      "name": "召唤师",
+      "breakpoints": [
+        2,
+        3
+      ],
+      "countable": true,
+      "emblem": false,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_summoner_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_summoner_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "重装战士",
+      "name": "重装战士",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "countable": true,
+      "emblem": true,
+      "type": "ordinary",
+      "icon": "assets/traits/da_18_vanguard_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_vanguard_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "月华神女",
+      "name": "月华神女",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_aluneuniquetrait18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_aluneuniquetrait18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "赏金猎人",
+      "name": "赏金猎人",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_dravenuniquetrait18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_dravenuniquetrait18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "帝王斑蝶",
+      "name": "帝王斑蝶",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_caustic_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_caustic_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "宝石骑士",
+      "name": "宝石骑士",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_emerald18_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_emerald18_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "魔岩巨兽",
+      "name": "魔岩巨兽",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_battlemage_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_battlemage_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "远古树精",
+      "name": "远古树精",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_maokai_uniquetrait_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_maokai_uniquetrait_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "荆棘之兴",
+      "name": "荆棘之兴",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_zyrauniquetrait_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_zyrauniquetrait_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "顶级掠食者",
+      "name": "顶级掠食者",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_apexpredator_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_apexpredator_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "翠神",
+      "name": "翠神",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_greenfather_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_greenfather_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "自然之力！大元素使",
+      "name": "自然之力！大元素使",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "unique",
+      "icon": "assets/traits/da_18_luxuniquetrait_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_luxuniquetrait_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    },
+    {
+      "id": "日月双蚀",
+      "name": "日月双蚀",
+      "breakpoints": [
+        1
+      ],
+      "countable": false,
+      "emblem": false,
+      "type": "composite",
+      "requires": {
+        "日蚀骑士": 3,
+        "月蚀骑士": 3
+      },
+      "icon": "assets/traits/da_18_eclipse_w.svg",
+      "iconSource": "https://ap.tft.tools/static/trait-icons/da_18_eclipse_w.svg",
+      "source": "https://jccvvvip.com/traits"
+    }
+  ],
+  "units": [
+    {
+      "id": "a-ka-li",
+      "baseId": "a-ka-li",
+      "name": "阿卡丽",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "地狱火": 1,
+        "魔战士": 1,
+        "狂战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/a-ka-li",
+      "icon": "assets/heroes/s18_head_akali.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_akali.png"
+    },
+    {
+      "id": "ka-mi-er",
+      "baseId": "ka-mi-er",
+      "name": "卡蜜尔",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "魔女": 1,
+        "狂战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ka-mi-er",
+      "icon": "assets/heroes/s18_head_camille.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_camille.png"
+    },
+    {
+      "id": "fei-hong-shu-guai",
+      "baseId": "fei-hong-shu-guai",
+      "name": "绯红树怪",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "猎人": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/fei-hong-shu-guai",
+      "icon": "assets/heroes/s18_head_cinderling.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_cinderling.png"
+    },
+    {
+      "id": "ka-er-ma",
+      "baseId": "ka-er-ma",
+      "name": "卡尔玛",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ka-er-ma",
+      "icon": "assets/heroes/s18_head_karma.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_karma.png"
+    },
+    {
+      "id": "ke-ku-bo",
+      "baseId": "ke-ku-bo",
+      "name": "可酷伯",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "约德尔人和朋友": 1,
+        "斗士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ke-ku-bo",
+      "icon": "assets/heroes/s18_head_kobuko.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kobuko.png"
+    },
+    {
+      "id": "lei-ou-na",
+      "baseId": "lei-ou-na",
+      "name": "蕾欧娜",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "日蚀骑士": 1,
+        "护卫": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/lei-ou-na",
+      "icon": "assets/heroes/s18_head_leona.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_leona.png"
+    },
+    {
+      "id": "ao-en",
+      "baseId": "ao-en",
+      "name": "奥恩",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "护卫": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ao-en",
+      "icon": "assets/heroes/s18_head_ornn.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ornn.png"
+    },
+    {
+      "id": "cang-lan-shao-jie",
+      "baseId": "cang-lan-shao-jie",
+      "name": "苍蓝哨戒",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "神谕": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/cang-lan-shao-jie",
+      "icon": "assets/heroes/s18_head_sentry.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sentry.png"
+    },
+    {
+      "id": "luo",
+      "baseId": "luo",
+      "name": "洛",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "花仙子": 1,
+        "主宰": 1,
+        "重装战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/luo",
+      "icon": "assets/heroes/s18_head_rakan.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_rakan.png"
+    },
+    {
+      "id": "lei-ke-sai",
+      "baseId": "lei-ke-sai",
+      "name": "雷克塞",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "黑荆棘": 1,
+        "斗士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/lei-ke-sai",
+      "icon": "assets/heroes/s18_head_reksai.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_reksai.png"
+    },
+    {
+      "id": "wei-lu-si",
+      "baseId": "wei-lu-si",
+      "name": "韦鲁斯",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "地狱火": 1,
+        "迅捷射手": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/wei-lu-si",
+      "icon": "assets/heroes/s18_head_varus.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_varus.png"
+    },
+    {
+      "id": "wei-jia",
+      "baseId": "wei-jia",
+      "name": "维迦",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "黑荆棘": 1,
+        "约德尔人和朋友": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/wei-jia",
+      "icon": "assets/heroes/s18_head_veigar.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_veigar.png"
+    },
+    {
+      "id": "xia",
+      "baseId": "xia",
+      "name": "霞",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "花仙子": 1,
+        "迅捷射手": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/xia",
+      "icon": "assets/heroes/s18_head_xayah.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_xayah.png"
+    },
+    {
+      "id": "yue-li-ke",
+      "baseId": "yue-li-ke",
+      "name": "约里克",
+      "cost": 1,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "主宰": 1,
+        "召唤师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yue-li-ke",
+      "icon": "assets/heroes/s18_head_yorick.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_yorick.png"
+    },
+    {
+      "id": "a-li-si-ta",
+      "baseId": "a-li-si-ta",
+      "name": "阿利斯塔",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "斗士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/a-li-si-ta",
+      "icon": "assets/heroes/s18_head_alistar.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_alistar.png"
+    },
+    {
+      "id": "kai-te-lin",
+      "baseId": "kai-te-lin",
+      "name": "凯特琳",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "魔女": 1,
+        "猎人": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/kai-te-lin",
+      "icon": "assets/heroes/s18_head_caitlyn.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_caitlyn.png"
+    },
+    {
+      "id": "yi-li-si",
+      "baseId": "yi-li-si",
+      "name": "伊莉丝",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "魔女": 1,
+        "重装战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yi-li-si",
+      "icon": "assets/heroes/s18_head_elise.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_elise.png"
+    },
+    {
+      "id": "mo-zhao-wa",
+      "baseId": "mo-zhao-wa",
+      "name": "魔沼蛙",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "魔战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/mo-zhao-wa",
+      "icon": "assets/heroes/s18_head_gromp.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_gromp.png"
+    },
+    {
+      "id": "kai-er",
+      "baseId": "kai-er",
+      "name": "凯尔",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "日蚀骑士": 1,
+        "迅捷射手": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/kai-er",
+      "icon": "assets/heroes/s18_head_kayle.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kayle.png"
+    },
+    {
+      "id": "le-fu-lan",
+      "baseId": "le-fu-lan",
+      "name": "乐芙兰",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/le-fu-lan",
+      "icon": "assets/heroes/s18_head_leblanc.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_leblanc.png"
+    },
+    {
+      "id": "an-ying-lang",
+      "baseId": "an-ying-lang",
+      "name": "暗影狼",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "狂战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/an-ying-lang",
+      "icon": "assets/heroes/s18_head_murkwolf.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_murkwolf.png"
+    },
+    {
+      "id": "xia-gu-xun-jie-xie",
+      "baseId": "xia-gu-xun-jie-xie",
+      "name": "峡谷迅捷蟹",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "主宰": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/xia-gu-xun-jie-xie",
+      "icon": "assets/heroes/s18_head_scuttle.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_scuttle.png"
+    },
+    {
+      "id": "se-zhuang-ni",
+      "baseId": "se-zhuang-ni",
+      "name": "瑟庄妮",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "日蚀骑士": 1,
+        "主宰": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/se-zhuang-ni",
+      "icon": "assets/heroes/s18_head_sejuani.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sejuani.png"
+    },
+    {
+      "id": "shen",
+      "baseId": "shen",
+      "name": "慎",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "地狱火": 1,
+        "护卫": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/shen",
+      "icon": "assets/heroes/s18_head_shen.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_shen.png"
+    },
+    {
+      "id": "ti-mo",
+      "baseId": "ti-mo",
+      "name": "提莫",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "约德尔人和朋友": 1,
+        "神谕": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ti-mo",
+      "icon": "assets/heroes/s18_head_teemo.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_teemo.png"
+    },
+    {
+      "id": "wo-li-ke",
+      "baseId": "wo-li-ke",
+      "name": "沃里克",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "黑荆棘": 1,
+        "狂战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/wo-li-ke",
+      "icon": "assets/heroes/s18_head_warwick.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_warwick.png"
+    },
+    {
+      "id": "yun-a-na",
+      "baseId": "yun-a-na",
+      "name": "芸阿娜",
+      "cost": 2,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "裁决使": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yun-a-na",
+      "icon": "assets/heroes/s18_head_yunara.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_yunara.png"
+    },
+    {
+      "id": "a-zi-er",
+      "baseId": "a-zi-er",
+      "name": "阿兹尔",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "黑荆棘": 1,
+        "裁决使": 1,
+        "召唤师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/a-zi-er",
+      "icon": "assets/heroes/s18_head_azir.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_azir.png"
+    },
+    {
+      "id": "ka-xi-ao-pei-ya",
+      "baseId": "ka-xi-ao-pei-ya",
+      "name": "卡西奥佩娅",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "魔女": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ka-xi-ao-pei-ya",
+      "icon": "assets/heroes/s18_head_cassiopeia.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_cassiopeia.png"
+    },
+    {
+      "id": "dai-an-na",
+      "baseId": "dai-an-na",
+      "name": "黛安娜",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "月蚀骑士": 1,
+        "狂战士": 1,
+        "重装战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/dai-an-na",
+      "icon": "assets/heroes/s18_head_diana.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_diana.png"
+    },
+    {
+      "id": "fei-de-ti-ke",
+      "baseId": "fei-de-ti-ke",
+      "name": "费德提克",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "绝命花妖": 1,
+        "护卫": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/fei-de-ti-ke",
+      "icon": "assets/heroes/s18_head_fiddlesticks.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_fiddlesticks.png"
+    },
+    {
+      "id": "he-ka-li-mu",
+      "baseId": "he-ka-li-mu",
+      "name": "赫卡里姆",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "重装战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/he-ka-li-mu",
+      "icon": "assets/heroes/s18_head_hecarim.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_hecarim.png"
+    },
+    {
+      "id": "ke-ge-mo",
+      "baseId": "ke-ge-mo",
+      "name": "克格莫",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "帝王斑蝶": 1,
+        "神谕": 1,
+        "魔战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ke-ge-mo",
+      "icon": "assets/heroes/s18_head_kogmaw.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kogmaw.png"
+    },
+    {
+      "id": "yuan-gu-shi-jia-chong",
+      "baseId": "yuan-gu-shi-jia-chong",
+      "name": "远古石甲虫",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "斗士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yuan-gu-shi-jia-chong",
+      "icon": "assets/heroes/s18_head_krug.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_krug.png"
+    },
+    {
+      "id": "yi",
+      "baseId": "yi",
+      "name": "易",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "魔战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yi",
+      "icon": "assets/heroes/s18_head_masteryi.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_masteryi.png"
+    },
+    {
+      "id": "la-mo-si",
+      "baseId": "la-mo-si",
+      "name": "拉莫斯",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "约德尔人和朋友": 1,
+        "护卫": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/la-mo-si",
+      "icon": "assets/heroes/s18_head_rammus.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_rammus.png"
+    },
+    {
+      "id": "shen-hong-feng-hui-niao",
+      "baseId": "shen-hong-feng-hui-niao",
+      "name": "深红锋喙鸟",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "召唤师": 1,
+        "迅捷射手": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/shen-hong-feng-hui-niao",
+      "icon": "assets/heroes/s18_head_raptor.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_raptor.png"
+    },
+    {
+      "id": "lei-en-jia-er",
+      "baseId": "lei-en-jia-er",
+      "name": "雷恩加尔",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "宿敌": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/lei-en-jia-er",
+      "icon": "assets/heroes/s18_head_rengar.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_rengar.png"
+    },
+    {
+      "id": "cui-si-ta-na",
+      "baseId": "cui-si-ta-na",
+      "name": "崔丝塔娜",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "花仙子": 1,
+        "约德尔人和朋友": 1,
+        "猎人": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/cui-si-ta-na",
+      "icon": "assets/heroes/s18_head_tristana.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_tristana.png"
+    },
+    {
+      "id": "wei",
+      "baseId": "wei",
+      "name": "蔚",
+      "cost": 3,
+      "slots": 1,
+      "traits": {
+        "野兽之灵": 1,
+        "主宰": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/wei",
+      "icon": "assets/heroes/s18_head_vi.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_vi.png"
+    },
+    {
+      "id": "a-li",
+      "baseId": "a-li",
+      "name": "阿狸",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/a-li",
+      "icon": "assets/heroes/s18_head_ahri.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ahri.png"
+    },
+    {
+      "id": "a-mu-mu",
+      "baseId": "a-mu-mu",
+      "name": "阿木木",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "地狱火": 1,
+        "主宰": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/a-mu-mu",
+      "icon": "assets/heroes/s18_head_amumu.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_amumu.png"
+    },
+    {
+      "id": "cang-lan-diao-wen-mo-xiang",
+      "baseId": "cang-lan-diao-wen-mo-xiang",
+      "name": "苍蓝雕纹魔像",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "重装战士": 1,
+        "神谕": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/cang-lan-diao-wen-mo-xiang",
+      "icon": "assets/heroes/s18_head_sentinel.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sentinel.png"
+    },
+    {
+      "id": "e-fei-liu-si",
+      "baseId": "e-fei-liu-si",
+      "name": "厄斐琉斯",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "月蚀骑士": 1,
+        "迅捷射手": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/e-fei-liu-si",
+      "icon": "assets/heroes/s18_head_aphelios.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_aphelios.png"
+    },
+    {
+      "id": "fei-hong-yin-ji-shu-guai",
+      "baseId": "fei-hong-yin-ji-shu-guai",
+      "name": "绯红印记树怪",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "峡谷野怪": 1,
+        "狂战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/fei-hong-yin-ji-shu-guai",
+      "icon": "assets/heroes/s18_head_brambleback.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_brambleback.png"
+    },
+    {
+      "id": "yi-ze-rui-er",
+      "baseId": "yi-ze-rui-er",
+      "name": "伊泽瑞尔",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "裁决使": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yi-ze-rui-er",
+      "icon": "assets/heroes/s18_head_ezreal.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ezreal.png"
+    },
+    {
+      "id": "li-li-ya",
+      "baseId": "li-li-ya",
+      "name": "莉莉娅",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "花仙子": 1,
+        "护卫": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/li-li-ya",
+      "icon": "assets/heroes/s18_head_lillia.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lillia.png"
+    },
+    {
+      "id": "mo-fei-te",
+      "baseId": "mo-fei-te",
+      "name": "墨菲特",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "黑荆棘": 1,
+        "魔岩巨兽": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/mo-fei-te",
+      "icon": "assets/heroes/s18_head_malphite.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_malphite.png"
+    },
+    {
+      "id": "mo-gan-na",
+      "baseId": "mo-gan-na",
+      "name": "莫甘娜",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "魔女": 1,
+        "神谕": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/mo-gan-na",
+      "icon": "assets/heroes/s18_head_morgana.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_morgana.png"
+    },
+    {
+      "id": "nai-de-li",
+      "baseId": "nai-de-li",
+      "name": "奈德丽",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "野兽之灵": 1,
+        "魔战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/nai-de-li",
+      "icon": "assets/heroes/s18_head_nidalee.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_nidalee.png"
+    },
+    {
+      "id": "se-ti",
+      "baseId": "se-ti",
+      "name": "瑟提",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "斗士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/se-ti",
+      "icon": "assets/heroes/s18_head_sett.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sett.png"
+    },
+    {
+      "id": "xi-wei-er",
+      "baseId": "xi-wei-er",
+      "name": "希维尔",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "野兽之灵": 1,
+        "猎人": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/xi-wei-er",
+      "icon": "assets/heroes/s18_head_sivir.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sivir.png"
+    },
+    {
+      "id": "suo-la-ka",
+      "baseId": "suo-la-ka",
+      "name": "索拉卡",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "绝命花妖": 1,
+        "裁决使": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/suo-la-ka",
+      "icon": "assets/heroes/s18_head_soraka.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_soraka.png"
+    },
+    {
+      "id": "jie-la",
+      "baseId": "jie-la",
+      "name": "婕拉",
+      "cost": 4,
+      "slots": 1,
+      "traits": {
+        "荆棘之兴": 1,
+        "召唤师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/jie-la",
+      "icon": "assets/heroes/s18_head_zyra.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_zyra.png"
+    },
+    {
+      "id": "la-lu-en",
+      "baseId": "la-lu-en",
+      "name": "拉露恩",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "月华神女": 1,
+        "月蚀骑士": 1,
+        "法师": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/la-lu-en",
+      "icon": "assets/heroes/s18_head_alune.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_alune.png"
+    },
+    {
+      "id": "ai-xi",
+      "baseId": "ai-xi",
+      "name": "艾希",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 1,
+        "猎人": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ai-xi",
+      "icon": "assets/heroes/s18_head_ashe.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ashe.png"
+    },
+    {
+      "id": "de-lai-wen",
+      "baseId": "de-lai-wen",
+      "name": "德莱文",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "赏金猎人": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/de-lai-wen",
+      "icon": "assets/heroes/s18_head_draven.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_draven.png"
+    },
+    {
+      "id": "yuan-gu-ju-long",
+      "baseId": "yuan-gu-ju-long",
+      "name": "远古巨龙",
+      "cost": 5,
+      "slots": 2,
+      "traits": {
+        "峡谷野怪": 2,
+        "顶级掠食者": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/yuan-gu-ju-long",
+      "icon": "assets/heroes/s18_head_elderdragon.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_elderdragon.png"
+    },
+    {
+      "id": "na-er",
+      "baseId": "na-er",
+      "name": "纳尔",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 1,
+        "约德尔人和朋友": 1,
+        "斗士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/na-er",
+      "icon": "assets/heroes/s18_head_gnar.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_gnar.png"
+    },
+    {
+      "id": "ai-weng",
+      "baseId": "ai-weng",
+      "name": "艾翁",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "翠神": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ai-weng",
+      "icon": "assets/heroes/s18_head_ivern.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ivern.png"
+    },
+    {
+      "id": "kai-nan",
+      "baseId": "kai-nan",
+      "name": "凯南",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "地狱火": 1,
+        "裁决使": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/kai-nan",
+      "icon": "assets/heroes/s18_head_kennen.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kennen.png"
+    },
+    {
+      "id": "la-ke-si-hua-xian-zi",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 花仙子",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "花仙子": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "花仙子",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-hua-xian-zi",
+      "icon": "assets/heroes/s18_head_lux_fae.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_fae.png"
+    },
+    {
+      "id": "la-ke-si-mo-nv",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 魔女",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "魔女": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "魔女",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-mo-nv",
+      "icon": "assets/heroes/s18_head_lux_coven.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_coven.png"
+    },
+    {
+      "id": "la-ke-si-ri-shi-qi-shi",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 日蚀骑士",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "日蚀骑士": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "日蚀骑士",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-ri-shi-qi-shi",
+      "icon": "assets/heroes/s18_head_lux_sunbeam.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_sunbeam.png"
+    },
+    {
+      "id": "la-ke-si-ye-shou-zhi-ling",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 野兽之灵",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "野兽之灵": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "野兽之灵",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-ye-shou-zhi-ling",
+      "icon": "assets/heroes/s18_head_lux_primal.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_primal.png"
+    },
+    {
+      "id": "la-ke-si-hei-jing-ji",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 黑荆棘",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "黑荆棘": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "黑荆棘",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-hei-jing-ji",
+      "icon": "assets/heroes/s18_head_lux_blackthorn.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_blackthorn.png"
+    },
+    {
+      "id": "la-ke-si-ling-hun-lian-hua",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 灵魂莲华",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "灵魂莲华": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "灵魂莲华",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-ling-hun-lian-hua",
+      "icon": "assets/heroes/s18_head_lux_blossom.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_blossom.png"
+    },
+    {
+      "id": "la-ke-si-di-yu-huo",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 地狱火",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "地狱火": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "地狱火",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-di-yu-huo",
+      "icon": "assets/heroes/s18_head_lux_inferno.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_inferno.png"
+    },
+    {
+      "id": "la-ke-si-yong-heng-zhi-sen",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 永恒之森",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "永恒之森": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "永恒之森",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-yong-heng-zhi-sen",
+      "icon": "assets/heroes/s18_head_lux_elderwood.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_elderwood.png"
+    },
+    {
+      "id": "la-ke-si-yue-shi-qi-shi",
+      "baseId": "la-ke-si",
+      "name": "拉克丝 月蚀骑士",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "月蚀骑士": 2,
+        "自然之力！大元素使": 1
+      },
+      "excludedFromSearch": false,
+      "form": "月蚀骑士",
+      "source": "https://jccvvvip.com/yingxiong/la-ke-si-yue-shi-qi-shi",
+      "icon": "assets/heroes/s18_head_lux_moonbeam.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_moonbeam.png"
+    },
+    {
+      "id": "mao-kai",
+      "baseId": "mao-kai",
+      "name": "茂凯",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "远古树精": 1,
+        "主宰": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/mao-kai",
+      "icon": "assets/heroes/s18_head_maokai.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_maokai.png"
+    },
+    {
+      "id": "ta-li-ke",
+      "baseId": "ta-li-ke",
+      "name": "塔里克",
+      "cost": 5,
+      "slots": 1,
+      "traits": {
+        "宝石骑士": 1,
+        "重装战士": 1
+      },
+      "excludedFromSearch": false,
+      "source": "https://jccvvvip.com/yingxiong/ta-li-ke",
+      "icon": "assets/heroes/s18_head_taric.png",
+      "iconSource": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_taric.png"
+    }
+  ],
+  "specialRules": {
+    "lux": "Choose exactly one of nine origin forms; chosen origin contributes 2. Generic Lux catalogue entry is not fieldable.",
+    "elderDragon": "Occupies 2 board slots and contributes 2 to 峡谷野怪.",
+    "khazix": "Excluded from every search by user instruction. Catalogue entry retained only for source completeness.",
+    "eclipse": {
+      "trait": "日月双蚀",
+      "requires": {
+        "日蚀骑士": 3,
+        "月蚀骑士": 3
+      },
+      "countable": false
+    },
+    "rival": "Rengar alone activates the 1-Rival tier. With Kha'Zix excluded, the 2-Rival state is outside search scope; 世纪和解 changes their interaction but is not modeled."
+  },
+  "sources": [
+    {
+      "url": "https://jccvvvip.com/heroes",
+      "role": "Chinese names, costs, base traits; catalogue V18.2a"
+    },
+    {
+      "url": "https://jccvvvip.com/traits",
+      "role": "Chinese trait names and breakpoints; catalogue V18.2a"
+    },
+    {
+      "url": "https://jccvvvip.com/jiban/su-di",
+      "role": "Rival one/two champion activation and Kha'Zix choices"
+    },
+    {
+      "url": "https://jccvvvip.com/jiban/jue-ming-hua-yao",
+      "role": "Flora Fatalis 1/2 activation"
+    },
+    {
+      "url": "https://traitladder.com/",
+      "role": "Trait Ladder counting, slot, emblem placement, Lux and Kha'Zix modeling; TFT rules, verify CN applicability"
+    },
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/",
+      "role": "Official TFT confirmation of Elder Dragon and Lux double contributions"
+    },
+    {
+      "url": "https://jcc.np5.top/tools/seasons/s18/champions/3506",
+      "role": "Chinese Eclipse 3 Solar/3 Lunar condition"
+    },
+    {
+      "url": "https://op.gg/zh-cn/tft/set/18",
+      "role": "Observed Set 18 emblem catalogue (20 trait types plus augmented Flora Fatalis duplicate); TFT list, CN availability crosschecked with Chinese stats where possible"
+    }
+  ],
+  "special": {
+    "lux": "la-ke-si",
+    "khazix": "ka-zi-ke",
+    "eclipse": "日月双蚀"
+  },
+  "confidenceNotice": "资料快照：中文图鉴 18.2a，核对于 2026-09-24。当前按 25 种普通羁绊计数：绝命花妖、雷恩加尔的宿敌首档计入；组合羁绊“日月双蚀”暂不计入，其国服拼盘计数尚待确认。拉克丝双份贡献与远古巨龙双人口已交叉核对。"
+}
