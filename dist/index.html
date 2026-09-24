@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#102d3c">
-  <title>拼盘天梯模拟器 · 金铲铲 S18 自然之力 · 转职阵容推荐</title>
-  <meta name="description" content="金铲铲之战 S18 自然之力拼盘天梯模拟器。输入转职类型和数量，推荐 8、9、10 人口的多羁绊阵容；8 人口分别计算无五费和含五费方案，全程排除卡兹克。">
+  <title>羁绊天梯模拟器 · 金铲铲 S18 自然之力 · 转职阵容推荐</title>
+  <meta name="description" content="金铲铲之战 S18 自然之力羁绊天梯模拟器。输入转职类型和数量，推荐 8、9、10 人口的多羁绊阵容；8 人口分别计算无五费和含五费方案，全程排除卡兹克。">
   <meta name="robots" content="index,follow">
-  <meta property="og:title" content="拼盘天梯 · 把你的转职拼成阵容">
+  <meta property="og:title" content="羁绊天梯 · 把你的转职拼成阵容">
   <meta property="og:description" content="S18 自然之力 · 8 / 9 / 10 人口 · 按已有转职寻找更多有效羁绊">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="zh_CN">
@@ -18,9 +18,9 @@
 <body>
   <a class="skip-link" href="#workspace">跳到模拟器</a>
   <header class="topbar">
-    <a class="brand" href="./" aria-label="拼盘天梯首页">
+    <a class="brand" href="./" aria-label="羁绊天梯首页">
       <span class="brand-mark" aria-hidden="true">◇</span>
-      <span>拼盘天梯 <small>TRAIT LADDER</small></span>
+      <span>羁绊天梯 <small>TRAIT LADDER</small></span>
     </a>
     <nav aria-label="页面导航">
       <a href="#rewards">奖励表</a>
@@ -33,7 +33,7 @@
     <div class="page-heading">
       <div><p class="eyebrow">S18 · 自然之力</p><h1>把转职，拼成更多羁绊。</h1>
         <p class="intro">选好你手里的转职，看看这些人口能怎么搭。</p></div>
-      <div class="season-stamp"><span>拼盘天梯模拟器</span><strong>8 / 9 / 10</strong><span>人口阵容推荐</span></div>
+      <div class="season-stamp"><span>羁绊天梯模拟器</span><strong>8 / 9 / 10</strong><span>人口阵容推荐</span></div>
     </div>
 
     <div id="load-error" class="notice error" role="alert" hidden></div>
@@ -80,7 +80,7 @@
       </aside>
 
       <section class="results-area" aria-label="推荐阵容">
-        <div class="results-header"><div><p class="eyebrow">你的拼盘方案</p><h2 id="results-title">8 人口，分两种方式搭。</h2></div><span class="rule-tag">非唯一羁绊计数</span></div>
+        <div class="results-header"><div><p class="eyebrow">你的阵容方案</p><h2 id="results-title">8 人口，分两种方式搭。</h2></div><span class="rule-tag">非唯一羁绊计数</span></div>
         <p class="data-brief">18.2a 资料快照 · 日月双蚀暂不计入 · <a href="#rules">查看数据口径</a></p>
         <div class="mode-tabs" id="mode-tabs" role="group" aria-label="选择五费方案">
           <button type="button" data-mode="noFive" aria-pressed="true"><span>不含五费</span><small id="no-five-count">1–4 费弈子</small></button>
@@ -92,21 +92,21 @@
           <div id="reward-summary" class="reward-summary" hidden><div><span class="muted">当前档位奖励</span><strong id="reward-value"></strong></div><a href="#rewards">全部档位 ↓</a></div>
         </div>
         <div id="result-error" class="notice error" role="alert" hidden></div>
-        <div id="empty-state" class="empty-state"><span class="empty-mark" aria-hidden="true">◇</span><h3>每一个转职，都多一种搭法。</h3><p>可以不添加转职，先看看这个人口的基础拼盘。</p><p class="subtle">转职会分配到具体弈子，装备格与天然羁绊一起校验。</p></div>
+        <div id="empty-state" class="empty-state"><span class="empty-mark" aria-hidden="true">◇</span><h3>每一个转职，都多一种搭法。</h3><p>可以不添加转职，先看看这个人口的基础阵容。</p><p class="subtle">转职会分配到具体弈子，装备格与天然羁绊一起校验。</p></div>
         <div id="result-list" class="result-list"></div>
         <div class="results-footer" id="results-footer" hidden><p id="search-details" class="muted"></p><button id="continue-button" class="secondary-button" type="button">再搜索 10 秒</button></div>
       </section>
     </div>
 
     <section id="rewards" class="rewards-section" aria-labelledby="rewards-heading">
-      <h2 id="rewards-heading">拼盘天梯奖励表</h2>
-      <div class="reward-table-wrap"><table class="reward-table"><caption class="sr-only">拼盘天梯各羁绊数量对应的奖励</caption><thead><tr><th scope="col">羁绊数</th><th scope="col">奖励内容</th></tr></thead><tbody id="reward-rows"></tbody></table></div>
+      <h2 id="rewards-heading">羁绊天梯奖励表</h2>
+      <div class="reward-table-wrap"><table class="reward-table"><caption class="sr-only">羁绊天梯各羁绊数量对应的奖励</caption><thead><tr><th scope="col">羁绊数</th><th scope="col">奖励内容</th></tr></thead><tbody id="reward-rows"></tbody></table></div>
     </section>
 
     <section id="rules" class="rules-section">
       <div><p class="eyebrow">计算前，先把规则说清楚</p><h2>羁绊数多一点，依据清楚一点。</h2></div>
       <div class="rules-grid">
-        <article><h3>怎么算一条羁绊？</h3><p>达到激活门槛的非唯一羁绊计 1 条，同一羁绊升到更高档位不会重复计数。棋子的独有羁绊会展示，但不加入拼盘总数。</p></article>
+        <article><h3>怎么算一条羁绊？</h3><p>达到激活门槛的非唯一羁绊计 1 条，同一羁绊升到更高档位不会重复计数。棋子的独有羁绊会展示，但不加入有效羁绊总数。</p></article>
         <article><h3>转职怎么算？</h3><p>每个转职必须有合法携带者。同一弈子不能靠转职重复获得已有羁绊，也不能重复装备同种转职；默认有 3 个装备格，可为保留弈子填写已占格数。</p></article>
         <article><h3>“当前找到”是什么意思？</h3><p>完整阵容空间很大。限定时间内先给出找到的最好方案；只有搜索完成、能够证明不存在更多羁绊时，才标记“已证明最多”。羁绊数量不代表实战胜率。</p></article>
       </div>
@@ -117,11 +117,11 @@
         </div>
       </details>
     </section>
-    <section id="open-source" class="open-source-note"><h2>一份可以一起完善的拼盘。</h2><p>网页在你的浏览器中计算。代码按 MIT 许可证开源，游戏名称及图标归各自权利人所有。本工具为玩家作品，与官方无隶属关系。</p><p>规则或资料有误时，可附上版本号和游戏内截图反馈。<a href="https://github.com/huangyunan219-coder/jcc-trait-ladder" target="_blank" rel="noopener noreferrer">在 GitHub 查看源码与来源说明 ↗</a></p></section>
+    <section id="open-source" class="open-source-note"><h2>一份可以一起完善的阵容。</h2><p>网页在你的浏览器中计算。代码按 MIT 许可证开源，游戏名称及图标归各自权利人所有。本工具为玩家作品，与官方无隶属关系。</p><p>规则或资料有误时，可附上版本号和游戏内截图反馈。<a href="https://github.com/huangyunan219-coder/jcc-trait-ladder" target="_blank" rel="noopener noreferrer">在 GitHub 查看源码与来源说明 ↗</a></p></section>
   </main>
-  <footer class="footer"><span>拼盘天梯 / S18 自然之力</span><span>先算羁绊，再看局势。</span></footer>
+  <footer class="footer"><span>羁绊天梯 / S18 自然之力</span><span>先算羁绊，再看局势。</span></footer>
   <div class="toast" id="toast" role="status" hidden></div>
   <dialog id="copy-dialog"><h2>手动复制</h2><p>浏览器暂时不允许自动复制，请复制下方内容。</p><textarea id="copy-output" readonly rows="8"></textarea><button id="close-copy" type="button" class="primary-button">关闭</button></dialog>
-  <noscript><p class="notice">阵容计算需要开启 JavaScript。该工具根据转职类型、数量及弈子羁绊，推荐 8、9、10 人口的拼盘天梯阵容。</p></noscript>
+  <noscript><p class="notice">阵容计算需要开启 JavaScript。该工具根据转职类型、数量及弈子羁绊，推荐 8、9、10 人口的羁绊天梯阵容。</p></noscript>
 </body>
 </html>
