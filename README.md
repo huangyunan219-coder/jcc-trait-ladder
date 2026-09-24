@@ -2,6 +2,8 @@
 
 金铲铲之战 **S18「自然之力」** 玩家工具。输入已有的转职种类与数量，寻找能激活更多非唯一羁绊的阵容，给出具体弈子和转职携带者。
 
+**[在线使用羁绊天梯模拟器](https://huangyunan219-coder.github.io/jcc-trait-ladder/)** · 电脑、手机浏览器直接打开，无需安装或登录。
+
 ## 能做什么
 
 | 上场人口 | 推荐范围 |
@@ -81,13 +83,15 @@ dist/
   data/s18-rewards.json         2—16 羁绊奖励表
   rewards.js                   精确奖励档位查询
   assets/                      弈子与羁绊图标
-  robots.txt                   搜索抓取配置
+  robots.txt, sitemap.xml      搜索抓取配置与站点地图
 tests/                         Node 内置测试
 ```
 
 ## 部署和搜索收录
 
-目前仅开源代码，**尚未公开部署网站**。以后将 `dist/` 发布到支持 HTTPS 的静态网站服务即可使用，不需要数据库。确定正式地址后，在 `dist/index.html` 添加对应 canonical，生成 `dist/sitemap.xml`，再给 `dist/robots.txt` 添加 Sitemap 地址。本地托管身份配置不进入开源仓库。
+网站通过 GitHub Pages 公开托管 `dist/`，使用 HTTPS，不需要数据库。`.github/workflows/check.yml` 会在测试与语法检查通过后自动发布 `main`；Pull Request 只运行检查，也可通过 Actions 的 `workflow_dispatch` 手动重新发布。
+
+正式地址为 <https://huangyunan219-coder.github.io/jcc-trait-ladder/>。首页已设置 canonical 与分享地址，并提供 `sitemap.xml` 和 `robots.txt`。更换域名时需同步修改这三处地址及本文件中的在线入口。本地托管身份配置不进入开源仓库。
 
 GitHub 仓库让别人获取源代码；公开网站地址让别人直接使用。首页已有静态中文标题、简介和规则说明，搜索条件放在 URL 片段中，避免为每种配置生成重复索引页。
 

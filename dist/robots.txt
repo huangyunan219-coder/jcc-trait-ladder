@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://huangyunan219-coder.github.io/jcc-trait-ladder/sitemap.xml
