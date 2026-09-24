@@ -3,38 +3,22 @@
   "set": "S18 自然之力",
   "augment": "拼盘天梯",
   "asOf": "2026-09-24",
-  "latestCheckedPatch": "18.2a",
-  "status": "partial_cn_verified",
-  "scopeNote": "只将国服更新公告明示的奖励作为已核实；其他档位不可用云顶之弈数据填充。",
-  "mechanics": {
-    "thresholdUnit": "已激活的非唯一羁绊数量",
-    "grantTiming": null,
-    "oneTimePerTier": null,
-    "cumulativeLowerTiers": null,
-    "multipleTiersInOneCombat": null,
-    "notes": "国服公告称各档为“兑换”，但未给出符文完整说明，无法单凭公告确认发放时机、重复性及跨档结算。"
-  },
+  "source": "用户提供的奖励表",
   "tiers": [
-    {"traits":2,"exists":true,"reward":"1个装备重铸器+1金币","confidence":"high","sourceUrls":["https://news.17173.com/content/08272026/101709360.shtml"]},
-    {"traits":3,"exists":true,"reward":"3金币","confidence":"high","sourceUrls":["https://news.17173.com/content/08272026/101709360.shtml"]},
-    {"traits":4,"exists":true,"reward":"6金币","confidence":"high","sourceUrls":["https://news.17173.com/content/08272026/101709360.shtml"]},
-    {"traits":5,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":6,"exists":true,"reward":null,"possibleRewards":["10金币","3个3费弈子"],"optionProbabilities":null,"confidence":"high","sourceUrls":["https://news.17173.com/content/08272026/101709360.shtml"],"notes":"18.1b公告列出两条6特质奖励变更，未说明各自概率及触发分支。"},
-    {"traits":7,"exists":true,"reward":"1个基础装备锻造器+8金币","confidence":"high","sourceUrls":["https://news.17173.com/content/08272026/101709360.shtml"]},
-    {"traits":8,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":9,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":10,"exists":true,"reward":"18金币","confidence":"high","sourceUrls":["https://news.17173.com/content/09102026/194956078.shtml"]},
-    {"traits":11,"exists":true,"reward":null,"possibleRewards":["金铲铲冠冕","金锅锅冠冕","金锅铲冠冕"],"optionProbabilities":null,"confidence":"high","sourceUrls":["https://news.17173.com/content/09102026/194956078.shtml"],"notes":"公告以斜杠列出三种冠冕；未说明选择或随机，以及各自概率。"},
-    {"traits":12,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":13,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":14,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":15,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]},
-    {"traits":16,"exists":null,"reward":null,"confidence":"unverified","sourceUrls":[]}
-  ],
-  "patchSources": [
-    {"patch":"18.1b","date":"2026-08-27","url":"https://news.17173.com/content/08272026/101709360.shtml","note":"列出2、3、4、6、7档奖励改动"},
-    {"patch":"18.2","date":"2026-09-10","url":"https://news.17173.com/content/09102026/194956078.shtml","note":"列出10、11档奖励，限制每局一名玩家获得"},
-    {"patch":"18.2a","date":"2026-09-17","url":"https://m.wywyx.com/news/202609/592010.html","note":"完整转载未提拼盘天梯；据此沿用18.1b、18.2已知值"}
-  ],
-  "crossGameConflict": {"tftTier10Reward":"20金币","cnTier10Reward":"18金币","tftUrl":"https://traitladder.com/","warning":"云顶之弈与金铲铲奖励不同；不得将TFT的未知档位标为已验证国服奖励。"}
+    {"traits":2,"reward":"1 金币 + 装备重铸器"},
+    {"traits":3,"reward":"3 金币"},
+    {"traits":4,"reward":"6 金币"},
+    {"traits":5,"reward":"随机基础装备散件"},
+    {"traits":6,"reward":"10 金币 或 3 张三费卡"},
+    {"traits":7,"reward":"8 金币 + 组件锤"},
+    {"traits":8,"reward":"2 随机散件 + 重铸器 或 成装锻造器"},
+    {"traits":9,"reward":"2 金币 + 3 张五费卡"},
+    {"traits":10,"reward":"25 金币"},
+    {"traits":11,"reward":"光明装备箱 + 2 张四费卡"},
+    {"traits":12,"reward":"冠冕三选一"},
+    {"traits":13,"reward":"光明装备宝箱 / 光明偷偷 + 拆卸器"},
+    {"traits":14,"reward":"3 个杰作升级"},
+    {"traits":15,"reward":"3 件杰作升级"},
+    {"traits":16,"reward":"3 件光明装备"}
+  ]
 }

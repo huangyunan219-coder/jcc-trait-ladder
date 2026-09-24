@@ -89,7 +89,7 @@
         <div class="ladder-panel">
           <div class="ladder-summary"><div><span class="muted" id="best-label">当前有效羁绊</span><div class="best-number"><strong id="best-score">—</strong><span>种</span></div></div><p id="search-status" role="status" aria-live="polite">选择转职后，点击生成阵容。</p></div>
           <div class="ladder" id="ladder" aria-label="有效羁绊数量刻度"></div>
-          <div id="reward-summary" class="reward-summary" hidden><div><span class="muted">当前最佳阵容对应的档位奖励</span><strong id="reward-value"></strong><p id="reward-note"></p></div><a href="#rewards">全部档位 ↓</a></div>
+          <div id="reward-summary" class="reward-summary" hidden><div><span class="muted">当前档位奖励</span><strong id="reward-value"></strong></div><a href="#rewards">全部档位 ↓</a></div>
         </div>
         <div id="result-error" class="notice error" role="alert" hidden></div>
         <div id="empty-state" class="empty-state"><span class="empty-mark" aria-hidden="true">◇</span><h3>每一个转职，都多一种搭法。</h3><p>可以不添加转职，先看看这个人口的基础拼盘。</p><p class="subtle">转职会分配到具体弈子，装备格与天然羁绊一起校验。</p></div>
@@ -99,13 +99,8 @@
     </div>
 
     <section id="rewards" class="rewards-section" aria-labelledby="rewards-heading">
-      <p class="eyebrow">多一条羁绊，对应哪一档？</p>
       <h2 id="rewards-heading">拼盘天梯奖励表</h2>
-      <p id="reward-version" class="reward-version">国服资料核对中</p>
-      <p class="reward-explanation">按已激活的非唯一羁绊数量查档。高亮行为当前最佳阵容的羁绊数；表中金额与物品为该档资料，不表示本局已经领取。</p>
-      <div class="reward-table-wrap"><table class="reward-table"><caption class="sr-only">拼盘天梯各羁绊数量对应的国服奖励和来源</caption><thead><tr><th scope="col">羁绊数</th><th scope="col">档位奖励</th><th scope="col">核对来源</th></tr></thead><tbody id="reward-rows"></tbody></table></div>
-      <p class="reward-explanation">“待核实”不代表没有奖励。5、8、9、12—16 档的奖励与档位是否存在尚缺可靠国服资料；发放时机、能否重复领取及跨档结算也未确认，因此不累计显示收益。</p>
-      <p class="reward-explanation">18.2 公告还说明：每局最多只有一名玩家获得「拼盘天梯」强化符文。该限制指符文的出现，不是单独限制 11 档冠冕。</p>
+      <div class="reward-table-wrap"><table class="reward-table"><caption class="sr-only">拼盘天梯各羁绊数量对应的奖励</caption><thead><tr><th scope="col">羁绊数</th><th scope="col">奖励内容</th></tr></thead><tbody id="reward-rows"></tbody></table></div>
     </section>
 
     <section id="rules" class="rules-section">

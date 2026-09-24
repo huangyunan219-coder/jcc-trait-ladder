@@ -120,7 +120,6 @@ function renderResults() {
   const reward=rewardForScore(best?.score,rewards);
   $('#reward-summary').hidden=!reward;
   $('#reward-value').textContent=reward?`${best.score} 羁绊档 · ${reward.label}`:'';
-  $('#reward-note').textContent=reward?.notes||'';
   document.querySelectorAll('[data-reward-tier]').forEach(row=>row.classList.toggle('current',+row.dataset.rewardTier===best?.score));
   $('#best-label').textContent=result?.complete?'已证明最多（当前数据口径）':'当前找到的有效羁绊';
   $('#search-button').disabled=jobs.size>0 || !data;
@@ -188,13 +187,9 @@ function renderCatalog() {
 }
 
 function renderRewards() {
-  $('#reward-version').textContent=`国服 18.2a 核对 · ${rewards.asOf} · 公告已确认 7 档`;
-  $('#reward-rows').innerHTML=rewards.tiers.map(tier=>{
-    const reward=rewardForScore(tier.traits,rewards);
-    const source=reward.sourceUrls[0];
-    const patch=rewards.patchSources.find(item=>item.url===source)?.patch;
-    return `<tr data-reward-tier="${tier.traits}" class="${reward.verified?'':'unverified'}"><th scope="row">${tier.traits}</th><td>${escape(reward.label)}${tier.notes?`<small>${escape(tier.notes)}</small>`:''}</td><td>${source?`<a href="${escape(source)}" target="_blank" rel="noopener noreferrer">${escape(patch)} 公告 ↗</a>`:'待核实'}</td></tr>`;
-  }).join('');
+  $('#reward-rows').innerHTML=rewards.tiers.map(tier=>
+    `<tr data-reward-tier="${tier.traits}"><th scope="row">${tier.traits}</th><td>${escape(tier.reward)}</td></tr>`
+  ).join('');
 }
 
 async function copy(text) {
